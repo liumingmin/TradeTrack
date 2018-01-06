@@ -1,0 +1,10 @@
+2017-12-25 21:18:32,865 ERROR [com.ming.trade.track.util.FileUtil.init(FileUtil.java:32) AWT-EventQueue-0] java.lang.NullPointerException
+2017-12-25 21:18:32,871 INFO  [com.ming.trade.track.util.FileUtil.tmpDir(FileUtil.java:48) AWT-EventQueue-0] 创建文件临时目录
+2017-12-25 21:18:32,872 INFO  [com.ming.trade.track.engine.StockFetcher.getStocksAsStream(StockFetcher.java:115) AWT-EventQueue-0] http://data.share.jrj.com.cn/stocks/download/AguHq.xls
+2017-12-25 21:18:33,039 INFO  [com.ming.trade.track.engine.StockFetcher.getStocksAsFile(StockFetcher.java:102) AWT-EventQueue-0] ./tmp/AguHq.xls
+2017-12-25 21:18:33,052 ERROR [com.ming.trade.track.engine.StockFetcher.getStocks(StockFetcher.java:63) AWT-EventQueue-0] java.io.IOException: Unable to read entire header; 143 bytes read; expected 512 bytes
+2017-12-25 21:29:44,850 ERROR [com.ming.trade.track.engine.StockFetcher.getStocks(StockFetcher.java:63) AWT-EventQueue-0] java.io.IOException: Cannot remove block[ 1478 ]; out of range[ 0 - 434 ]
+2017-12-25 21:29:45,956 ERROR [com.ming.trade.track.engine.StockFetcher.getStocks(StockFetcher.java:63) AWT-EventQueue-0] java.io.IOException: Cannot remove block[ 1478 ]; out of range[ 0 - 434 ]
+2017-12-25 21:29:51,473 ERROR [com.ming.trade.track.util.FileUtil.init(FileUtil.java:32) AWT-EventQueue-0] java.lang.NullPointerException
+2017-12-25 21:29:51,490 ERROR [com.ming.trade.track.engine.StockFetcher.getStocks(StockFetcher.java:63) AWT-EventQueue-0] java.io.IOException: Cannot remove block[ 1478 ]; out of range[ 0 - 434 ]
+2017-12-25 21:31:03,165 ERROR [com.ming.trade.track.engine.StockFetcher.getStocks(StockFetcher.java:63) AWT-EventQueue-0] java.io.IOException: Cannot remove block[ 1478 ]; out of range[ 0 - 434 ]
