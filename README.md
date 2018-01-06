@@ -1,5 +1,5 @@
 # TradeTrack
-fetch stock data and anlysis 
+fetch stock data and analysis
 
 大概8年前的写的一个爬数据和分析的小工具，那时候maven还没流行起来ant的时代，直接引用jar包
 用到了多线程与线程池 互斥计数器 简单的swing界面
